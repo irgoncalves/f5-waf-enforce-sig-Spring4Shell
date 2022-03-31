@@ -22,4 +22,4 @@ The host machine needs to have connection to the BIG-IP management interface.
 usage: f5-waf-enforce-sig-Spring4Shell device
 
 positional arguments:
-  device      File with IP adrresses of the target BIG-IP devices separated by line
+  device      A file containing list of BIG-IP devices separated by line, e.g. devices.txt
