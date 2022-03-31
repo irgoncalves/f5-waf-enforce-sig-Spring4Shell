@@ -16,7 +16,7 @@ dt = datetime.datetime.today()
 # CVE-2022-22965, CVE-2022-22950, and CVE-2022-22963.
 # https://support.f5.com/csp/article/K24912123
 
-sig = ['200003437', '200003438', '200003439', '200003443', '200003444', '200003445', '200004161', '200004453', '200104262', '200104263', '200104796', '200104797', '200104798', '200104799']
+sigs = ['200003437', '200003438', '200003439', '200003443', '200003444', '200003445', '200004161', '200004453', '200104262', '200104263', '200104796', '200104797', '200104798', '200104799']
 
 def get_token(b, url_base, creds):
     url_auth = '%s/shared/authn/login' % url_base
@@ -120,7 +120,7 @@ if __name__ == "__main__":
     device = args['device']
 
     username = input('Enter your username: ') 
-    password = getpass.getpass('Enter your password')
+    password = getpass.getpass('Enter your password: ')
 
     with open(device,'r') as a_file:
         for line in a_file:
