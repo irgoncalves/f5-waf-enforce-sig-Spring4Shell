@@ -5,8 +5,8 @@ This enforces signatures for the vulnerabilities Spring Framework (Spring4Shell)
 
 This script enforces all signatures present in the list below related to the vulnerabilities Spring4Shell and Spring Cloud across all policies in blocking mode in the Adv. WAF/ASM.
 
-For the current list of attack signatures, check the following article:
-https://support.f5.com/csp/article/K19026212
+For the current list of attack signatures related to the vulnerabilities above, check the following article as they might change:
+https://support.f5.com/csp/article/K24912123
 
 This was tested on BIG-IP ASM/Adv.WAF v15.x but I expect this to work in v13/v14/v16 as well.
 
